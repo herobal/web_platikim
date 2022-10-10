@@ -15,7 +15,7 @@
             body {
                 width: 100%;
                 min-height: 100vh;
-                background-color: blue;
+                background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2553315.jpg&f=1&nofb=1&ipt=c627202dda6cfe405759363add5aca14c85e6f1a9c6c4a2a8a097da7a5318a34&ipo=images);
                 background-position: center;
                 background-size: cover;
                 display: flex;
@@ -154,80 +154,88 @@
         <link rel="stylesheet" href= https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css>
     </head>
     <body>
-        <div class="container">
-            <form action="contact.php" method="POST">
-                <table>
-                    <tr>
-                    <div class="form-floating mb-4">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="nama">
-                        <label for="floatingInput"s>NAMA</label>
+        <nav>
+        <header backgroud-color="black"; >
+            <div class="container">
+            <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img  alt="" width="30" height="24" class="d-inline-block align-text-top"> 
+                        </a >
                     </div>
-                    </tr>
-                    <div class="form-floating mb-4">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="nim">
-                        <label for="floatingInput">NIM</label>
-                    </div>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="jenis_kelamin">
-                                JENIS KELAMIN  
-                            </label>
-                        </td>
-                        <td>
-                            <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="laki-laki" require>Laki-Laki
-                            <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="perempuan" require>Perempuan
-                    </tr>
-                    <tr>
-                    <div class="form-floating mb-4">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected="">Agama</option>
-                            <option value="1">Hindu</option>
-                            <option value="2">Islam</option>
-                            <option value="3">Kristen</option>
-                        </select>
-                        <label for="floatingSelect">Pilih Agama</label>
-                    </div>
-    
-                    </tr>
-                    <tr>
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">ALAMAT</label>
+                </nav> 
+                <form action="contact.php" method="POST">
+                    <legend>Daftar Data Mahasiswa</legend>
+                    <table>
+                        <tr>
+                        <div class="form-floating mb-4">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="nama">
+                            <label for="floatingInput"s>NAMA</label>
                         </div>
-                    </tr>
-                    <td>
-                        <div class="form-floating mb-3">
+                        </tr>
+                        <div class="form-floating mb-4">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="nim">
+                            <label for="floatingInput">NIM</label>
+                        </div>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="jenis_kelamin">
+                                    JENIS KELAMIN  
+                                </label>
+                            </td>
+                            <td>
+                                <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="laki-laki" require>Laki-Laki
+                                <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="perempuan" require>Perempuan
+                        </tr>
+                        <tr>
+                        <div class="form-floating mb-4">
                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option selected>Jurusan</option>
-                                <option value="1">MTI</option>
-                                <option value="2">DGM</option>
-                                <option value="3">SK</option>
+                                <option selected="">Agama</option>
+                                <option value="1">Hindu</option>
+                                <option value="2">Islam</option>
+                                <option value="3">Kristen</option>
                             </select>
-                            <label for="floatingSelect">Pilih Jurusan</label>
+                            <label for="floatingSelect">Pilih Agama</label>
                         </div>
-                    </tr>
-                    <tr>
+        
+                        </tr>
+                        <tr>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">ALAMAT</label>
+                            </div>
+                        </tr>
                         <td>
                             <div class="form-floating mb-3">
                                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                    <option selected>Minat</option>
-                                    <option value="1">Keamanan</option>
-                                    <option value="2">Robotic</option>
-                                    <option value="3">Programan</option>
+                                    <option selected>Jurusan</option>
+                                    <option value="1">MTI</option>
+                                    <option value="2">DGM</option>
+                                    <option value="3">SK</option>
                                 </select>
-                                <label for="floatingSelect">Bidang Minat</label>
+                                <label for="floatingSelect">Pilih Jurusan</label>
                             </div>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button type=submit name"simpan">KONFIMASI</button>
-                </table>
-            </form>
-        </div>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.backstretch.min.js"></script>
-        <script src="js/custom.js"></script>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="form-floating mb-3">
+                                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                        <option selected>Minat</option>
+                                        <option value="1">Keamanan</option>
+                                        <option value="2">Robotic</option>
+                                        <option value="3">Programan</option>
+                                    </select>
+                                    <label for="floatingSelect">Bidang Minat</label>
+                                </div>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type=submit name"simpan">KONFIMASI</button>
+                    </table>
+                </form>
+            </div>
+        </header>
+        </nav>
     </body>           
 </html>

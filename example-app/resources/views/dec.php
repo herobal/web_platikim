@@ -1,91 +1,42 @@
 <!DOCTYPE html>
-   <html lang="en">
-    <head>
-     <title>About</title>
-     <!-----meta_tag------>
-     <meta charset="utf-8">
-        <meta http-equiv="X=UA-Contatible" content="IE=edge">
-        <meta name="viewport" content="width=divice-width, initial-scale=1">
-        <title>About</title>
-        <!-----css----->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/340.0.0/css/bootstrap/min.css">
-        <!-----js----->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-	    <link rel="stylesheet" href="css/font-awesome.min.css">
-	    <link rel="stylesheet" href="css/templatemo-blue.css">
-        <link rel="stylesheet" href="css/style.css">
-        <style>
-  body {
-   background-color: lightblue;
-  }
-</style>
-    </head>
-    <body>
-    <body data-spy="scroll" data-target=".navbar-collapse" style="">
-    <!-- header section -->
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <img src="images/vhekr.png" width="200" height="200" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
-                        <hr>
-                        <h1 style="color: #ffffff;" class="tm-title bold shadow">SuperSaiyanTeamID</h1>
-                        <h6>FREE <strong>Content</strong>
-                    </h6></div>
-                </div>
-            </div>
-        </header>
-        <section class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="about">
-                        <h3 class="accent">About team &amp; Helper</h3
-                        <h3 class="accent">Thanks to</h3>
+    <html>
+        <head>
+                <!--Metas-->
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="description" content="WEB NO RESPON">
+            <meta name="author" content="testroom">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--berkas-->
+        <link rel="shortcut icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/882/180/png-transparent-test-automation-software-testing-manual-testing-selenium-others-angle-trademark-logo.png" />
+        <!--PLUGINS CSS STYLE-->
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/themify-icons/themify-icons.css">
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/slick/slick.css">
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/slick/slick-theme.css">
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/fancybox/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://demo.themefisher.com/small-apps/plugins/aos/aos.css">
+            <!--CUSTOM CSS-->
+            <link href="https://demo.themefisher.com/small-apps/css/style.css" rel="stylesheet">
+            <link rel="stylesheet" href= https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css>
+        </head>   
+        <body>
+            <navbar>
+                <div class="container">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img>
+                            
+                        </a>
                     </div>
+                </nav> 
+
                 </div>
-            </div>
-        </section>
-        <section class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <div class="education">
-                        <h2 class="white">Tentang</h2>
-                            <div class="education-content">
-                                <h4 class="education-title accent">Layanan-API</h4>
-                                    <div class="education-school">
-                                        <h5>Special Editon 2022</h5>
-                                    </div>
-                                <p class="education-description">menyediakan rest api gratis untuk anda
-                                menggunakan platform googlemesin. bisa digunakan di segala app dan program yang anda mau dan tidak ada batasan untuk memoditikasi akan tetapi kami mohon pergunakan secara bijak dan baik</p>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="languages">
-                            <ul>
-                           <h2>Contact</h2>
-                            <p><i class="fa fa-map-marker"></i>Jl. TukadPakerisanNo.97 Panjer,Denpasar Selatan,Kota Denpasar,Bali 80225</p>
-                            <p><i class="fa fa-envelope"></i>SuperSaiyanTeam@gmail.com</p>
-                            <p><i class="fa fa-globe"></i>www.supersaiyanteam.my.id</p>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <p class="copyright">Copyright Special Edition &copy; 2022 SuperSaiyanTeam</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.backstretch.min.js"></script>
-        <script src="js/custom.js"></script>
-  </body>
-</html>
+            </navbar>
+        </body>
+
+    </html>
