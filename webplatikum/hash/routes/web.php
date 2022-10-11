@@ -19,6 +19,6 @@ Route::get('/', function () {
 Route::get('about', function () {
     return view('about');
 });
-Route::get('form_resgiter', function () {
-    return view('welcome');
+Route::get('register', function () {
+    return view('form_register');
 });
